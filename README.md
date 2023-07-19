@@ -1,5 +1,11 @@
 # KPMG Data Analytics Virtual Internship
 
+## Objective
+We worked for a organization named Spyrocket who sells bikes and cycling accessories. The organisation has a large dataset relating to its customers and they want us to effectively analyse it to help optimise its marketing strategy.
+
+## Dataset
+Dataset provided by the company consists of 2 csv files : Customer Demographics and Transaction details consisting for 4000 datapoints.
+
 ## Task 1 - Data Quality Assessment
 
 In this task, we conducted a thorough data quality assessment on the provided dataset. The following issues were identified and addressed:
