@@ -15,10 +15,14 @@ In this task, we conducted a thorough data quality assessment on the provided da
 
 In this task, we performed data preprocessing and utilized RFM (Recency, Frequency, Monetary) analysis to segment the customers. The steps involved were:
 
-- **Data Cleaning**: The data was cleaned and prepared for analysis.
-- **RFM Analysis**: RFM metrics were calculated for each customer using the transactional data in the dataset.
-- **Segmentation**: Customers were segmented into different categories (Diamond, Gold, Silver, Bronze) based on their RFM scores, indicating their customer value.
-- **Data Modelling**: The Random Forest algorithm was used to model the data and identify important features.
+1. **Data Cleaning**: The data was cleaned and prepared for analysis.
+2. **RFM Analysis**:
+   - Recency: Calculated as the difference between the most recent transaction date in the dataset and each customer's transaction date.
+   - Frequency: Created a pivot table with rows as Customer_id and values as the Recency, Count of Product_id (Frequency), and Sum of Profit (Monetary).
+   - R_score, F_score, M_score: Assigned scores from 1 to 4 based on quartiles. R_score = 1 if Recency > 75th quartile, and similarly calculated F_score and M_score.
+   - RFM score: Calculated as 100 * R_score + 10 * F_score + M_score.
+   - Segmentation: Customers were categorized into different sections (Diamond, Gold, Silver, Bronze) based on their RFM scores, with Diamond customers having the highest RFM value indicating the highest customer value.
+3. **Data Modelling**: The Random Forest algorithm was used to model the data and identify important features.
 
 ## Task 3 - Creating Dashboard using Power BI
 
@@ -29,4 +33,7 @@ The dashboard provides a comprehensive view of customer segmentation and key ins
 ## About
 
 This repository contains the work done as part of the KPMG Data Analytics Virtual Internship by Forage. The internship equipped us with valuable skills in data quality assessment, data preprocessing, RFM analysis, data modelling, and data visualization using Power BI. The insights gained from this internship will undoubtedly contribute to our proficiency in the field of data analytics and decision-making processes.
+
+*Note: The above summary is based on the tasks completed during the virtual internship at KPMG using the Forage platform. The specific details and findings may vary depending on the dataset and individual analysis.*
+
 
