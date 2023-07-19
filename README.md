@@ -34,6 +34,4 @@ The dashboard provides a comprehensive view of customer segmentation and key ins
 
 This repository contains the work done as part of the KPMG Data Analytics Virtual Internship by Forage. The internship equipped us with valuable skills in data quality assessment, data preprocessing, RFM analysis, data modelling, and data visualization using Power BI. The insights gained from this internship will undoubtedly contribute to our proficiency in the field of data analytics and decision-making processes.
 
-*Note: The above summary is based on the tasks completed during the virtual internship at KPMG using the Forage platform. The specific details and findings may vary depending on the dataset and individual analysis.*
-
 
